@@ -1,0 +1,24 @@
+~(~p -> ~q v p) = ~(~p v (~q v p))
+
+Passo 2: Aplicação da Lei de De Morgan novamente:
+
+~(~p v (~q v p)) = ~(~p v (~p v ~q))
+
+Passo 3: Aplicação da Lei da Identidade (p v ~p = Verdadeiro) à segunda parte:
+
+~(~p v (~p v ~q)) = ~(Verdadeiro v ~q)
+
+Passo 4: A negação de Verdadeiro é Falso, e a negação de Falso é Verdadeiro:
+
+~(Verdadeiro v ~q) = ~Verdadeiro
+
+Passo 5: A negação de Verdadeiro é Falso:
+
+~Verdadeiro = Falso
+
+Portanto, a simplificação da proposição é simplesmente "Falso".
+
+
+
+
+

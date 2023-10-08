@@ -1,0 +1,44 @@
+Primeiro, vamos aplicar a lei de equivalência "bicondicional":
+
+(p ^ ~q) <-> r é equivalente a ((p ^ ~q) -> r) ^ (r -> (p ^ ~q))
+
+Agora, vamos focar em simplificar cada uma das partes da equivalência.
+
+Parte 1: (p ^ ~q) -> r
+
+Podemos usar a implicação material aqui (p -> q é equivalente a ~p v q):
+
+(p ^ ~q) -> r é equivalente a (~(p ^ ~q)) v r
+
+Agora, vamos aplicar a lei de Morgan para a negação de uma conjunção (De Morgan):
+
+(~(p ^ ~q)) v r é equivalente a (~p v q) v r
+
+Parte 2: r -> (p ^ ~q)
+
+Aqui também podemos usar a implicação material:
+
+r -> (p ^ ~q) é equivalente a ~r v (p ^ ~q)
+
+Agora, vamos aplicar a lei de Morgan para a negação de uma conjunção novamente:
+
+~r v (p ^ ~q) é equivalente a (r -> ~r) v (r -> (p ^ ~q))
+
+Agora, juntando as duas partes da equivalência:
+
+((p ^ ~q) -> r) ^ (r -> (p ^ ~q)) é equivalente a ((~p v q) v r) ^ ((r -> ~r) v (r -> (p ^ ~q)))
+
+Finalmente, aplicando a lei da contradição (p v ~p é sempre verdadeiro) e a lei da tautologia (p v True é sempre verdadeiro), obtemos:
+
+((~p v q) v r) ^ (True v True)
+
+Simplificando ainda mais:
+
+(~p v q v r) ^ True
+
+Portanto, a representação da proposição (p ^ ~q) <-> r em termos de uma proposição que contenha apenas os conectivos de negação ~ e disjunção v é ~p v q v r.
+
+
+
+
+
