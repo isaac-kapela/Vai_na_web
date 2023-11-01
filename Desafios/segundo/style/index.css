@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    color: aliceblue;
+}
+.navBar{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    
+}
+
+.navBar ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex; 
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+        
+}
+.navBar ul li{
+    margin-right: 70px;
+    margin-top: 20px;
+
+
+}
+.logo img{
+    width: 100%;
+    height: 300px;
+
+}
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo img {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 30px;
+    margin-bottom: 0;    
+    
+
+}
+
+.item {
+    text-align: center;
+    margin: 10px;
+}
+
+.item img {
+    border: 2px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+   
+    
+}
+
+.item p {
+    margin-top:1px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px
+}
+/* Estiliza as imagens quando o cursor está sobre elas */
+.item:hover img {
+    border: 2px solid rgb(47, 0, 255);
+    opacity: 1;
+    transform: scale(1.1); /* Aumenta o tamanho em 10% */
+}
+
+
+
+
+
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    margin-top: 15px;
+}
+
+.footer p {
+    color: aliceblue;
+    margin-right: 10px; 
+    font-size: 10px
+}
+
+.footer img {
+    width: 30px;
+    margin-right: 5px; 
+}
+
+@media only screen and (max-width:500px) {
+   
+.navBar ul li{
+    margin-right: 70px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+   
+    .navBar {
+        width: 100%;
+    }
+
+    .logo img{
+
+        width: 100%;
+        height: 200px;
+    }
+
+    .conteudo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    
+.conteudo img {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    margin-bottom: 0;   
+    width: 100px; 
+}
+
+.item p {
+    margin-top:1px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: black;
+}
+
+
+.footer p {
+    color: aliceblue;
+    margin-right: 10px; 
+    font-size: 6px
+}
+    
+}
