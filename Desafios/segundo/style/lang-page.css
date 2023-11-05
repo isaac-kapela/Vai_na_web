@@ -1,0 +1,182 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:white;
+    color: white;
+}
+
+header {
+    background-color:white;
+    padding: 10px 0;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.navbar img {
+    width: 120px;
+    border-radius: 35px;
+
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+    
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.destque {
+    background-color:rgb(154, 193, 226);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    
+}
+
+.destque img {
+    max-width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.destque:hover img  {
+    border: 2px solid rgb(47, 0, 255);
+    opacity: 1;
+    transform: scale(1.1); /* Aumenta o tamanho em 10% */
+}
+
+
+.destque h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: black;
+
+}
+
+.destque p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.destque a {
+    background-color: #ff9900;
+    color: #161616;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.movies {display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+.movie-card {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    justify-content: center;
+    margin-right: 50px;
+    cursor: pointer;
+    
+}
+
+.movie-card:hover img  {
+    border: 2px solid rgb(47, 0, 255);
+    opacity: 1;
+    transform: scale(1.1); /* Aumenta o tamanho em 10% */
+}
+
+
+.movie-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    display: block; /* Define a imagem como bloco para centralização horizontal */
+    margin: 0 auto; /* Centraliza horizontalmente a imagem */
+}
+
+
+
+.movie-card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    margin-bottom: 5px;
+}
+
+.movie-card p {
+    font-size: 14px;
+    color: #999;
+    margin: 10px 0;
+    margin-top: 8px;
+    margin-bottom: 20px
+}
+
+.movie-card a {
+    background-color: #ff9900;
+    color: #161616;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    margin-top: 15px;
+}
+
+.footer p {
+    color: aliceblue;
+    margin-right: 10px; 
+    font-size: 10px
+}
+
+.footer img {
+    width: 30px;
+    margin-right: 5px; 
+}
