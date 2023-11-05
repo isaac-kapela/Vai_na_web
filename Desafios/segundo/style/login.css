@@ -110,3 +110,32 @@
     width: 30px;
     margin-right: 5px; 
 }
+
+/* Media queries para responsividade */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        border-radius: 0px;
+        
+    }
+
+    .logo{
+        margin-bottom: 30px;
+        margin-right: 20px;
+    }
+    .img-logo{
+        width:60px;
+        height: 50px;
+
+    }
+    
+    .login {
+        width: 80%;
+        height: auto;
+    }
+    
+    .formulario input {
+        width: 100%;
+    }
+    
+}

@@ -101,7 +101,8 @@ main {
     color: black;
 }
 
-.movies {display: flex;
+.Filmes {
+    display: flex;
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
@@ -109,7 +110,7 @@ main {
 }
 
 
-.movie-card {
+.card {
     background-color: black;
     padding: 20px;
     text-align: center;
@@ -120,14 +121,14 @@ main {
     
 }
 
-.movie-card:hover img  {
+.card:hover img  {
     border: 2px solid rgb(47, 0, 255);
     opacity: 1;
     transform: scale(1.1); /* Aumenta o tamanho em 10% */
 }
 
 
-.movie-card img {
+.card img {
     max-width: 100%;
     border-radius: 10px;
     display: block; /* Define a imagem como bloco para centralização horizontal */
@@ -136,13 +137,15 @@ main {
 
 
 
-.movie-card h3 {
+.card h3 {
     font-size: 20px;
     margin: 10px 0;
     margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
 }
 
-.movie-card p {
+.card p {
     font-size: 14px;
     color: #999;
     margin: 10px 0;
@@ -150,7 +153,7 @@ main {
     margin-bottom: 20px
 }
 
-.movie-card a {
+.card a {
     background-color: #ff9900;
     color: #161616;
     padding: 10px 20px;
@@ -179,4 +182,106 @@ main {
 .footer img {
     width: 30px;
     margin-right: 5px; 
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    
+    .navbar {
+        background-color: white; /* Adicione um plano de fundo branco para a navbar */
+        display: flex; /* Torna a navbar um contêiner flexível */
+        align-items: center; /* Centraliza verticalmente os elementos na navbar */
+        justify-content: space-between; /* Espaço uniforme entre a logo e a navbar */
+        padding: 0 20px;
+        
+    }   
+
+    .navbar img {
+        width: 90px;
+    
+    }
+    nav ul {
+        
+        display: flex; /* Torna a lista um contêiner flexível */
+        gap: 10px;
+        font-size: 12px;
+        align-items: center; /* Centraliza verticalmente os itens da lista com a logo */
+        margin-left: 10px; /* Adicione margem à esquerda para separar da logo */
+        margin-right: 300px;
+    }
+
+
+
+    main {
+        padding: 0 10px;
+    }
+
+    .destque {
+        padding: 10px;
+    }
+
+    .destque h1 {
+        font-size: 20px;
+    }
+
+    .destque p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .destque a {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+
+    .Filmes {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center; /* Centraliza os elementos horizontalmente */
+        text-align: center; /* Centraliza o texto horizontalmente, se houver */
+        margin-right: auto; /* Define a margem direita como automática para centralizar a div */
+        width: 100%; /* Define a largura da div como 100% para ocupar a largura total da tela */
+        margin-left: 10px;
+    
+    
+    }
+
+    .card {
+        padding: 10px;
+        flex: 1;
+        width: 55%;
+        
+    }
+
+    .card h3 {
+        font-size: 12px;
+        
+        
+    }
+
+    .card p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .card a {
+        padding: 8px 16px;
+        font-size: 9px;
+    }
+
+    .footer {
+        padding: 10px;
+    }
+
+    .footer p {
+        font-size: 8px;
+    }
+
+    .footer img {
+        width: 20px;
+    }
 }
