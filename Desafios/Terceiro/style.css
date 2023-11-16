@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #129799;
+}
+
+.navBar_1 {
+    width: 100%;
+    height: 40px;
+}
+
+.navBar_1 ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBar_1 ul li {
+    margin-right: 70px;
+    margin-top: 20px;
+    color: white;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    
+}
+
+.titulo h1 {
+    margin-right: 20px;
+    margin-right: 15px;   
+    color: white;
+    font-size: 45px;
+}
+
+.titulo img {
+    max-width: 300  px;
+    /* Define a largura máxima da imagem */
+    height: auto;
+    /* Mantém a proporção da imagem */
+}
+
+.navBar_2 ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBar_2 ul li {
+    margin-right: 70px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+main{
+   background-color:#FFA185 ; 
+   height: 750px;
+}
+
+.Texto{
+    height: 80px;
+    background-color:#FFA185;
+    margin-left: 20px;
+    
+
+
+}
+
+.Texto h1{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 40px;
+    
+}
+.Texto p{
+    color: black;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.texto h2{
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sla{
+    margin-left: 450px;
+}
+
+.Texto img{
+    width: 500px;
+    margin-right: 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;   
+    margin-bottom: 20px;
+}
+
+.img-cont{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+footer{
+    background-color: #129799;
+}
+
+.navfoo {
+    width: 100%;
+    height: 40px;
+}
+
+.navfoo ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    margin-left: 700px;
+}
+
+.navfoo ul li {
+    margin-right: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+.icons{
+    padding: 0;
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons img{
+    width: 30px;
+}
