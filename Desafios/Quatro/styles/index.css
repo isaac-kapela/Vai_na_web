@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+}
+
+.navBar ul {
+    list-style-type: none;
+    display: flex;
+    font: bold;
+    font-size: 20px;
+}
+
+.navBar ul li {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.img_nav {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.cont_linha {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    border: solid 2px black;
+}
+
+.linha {
+    margin-top: 15px;
+}
+
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px;
+    margin-left: 50px;
+}
+
+.item {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: left; /* Alteração para alinhar à esquerda */
+}
+
+.item p,
+.item h3,
+.item button {
+    margin-left: 10px; /* Adição de margem para separar os elementos */
+}
+
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.item h3{
+    color: #5CA720;
+}
+.item hr{
+    width: 100px;
+    color: #5CA720;
+    margin-bottom: 10px;
+    font:100px;
+    height: 2px;
+}
+
+.item button {
+    background-color:#5CA720;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.item img:hover {
+    filter: brightness(80%);
+
+}
+
+.item button:hover {
+    background-color: #512200; 
+}
+.paragrafo{
+    margin-left: 70px;
+}
+.paragrafo p{
+    margin-bottom: 3px;
+
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.paragrafo {
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.paragrafo p {
+    margin-bottom: 3px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Permite que os itens do footer se ajustem quando a tela for estreitada */
+}
+
+.formulario {
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.formulario label {
+    margin-bottom: 5px;
+    margin-right: 220px;
+}
+
+.formulario input {
+    padding: 5px;
+}
+
+.formulario button {
+    background-color: #5CA720;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.linha {
+    width: 100%; /* Para ocupar toda a largura da tela */
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #F9F9F9;
+}
+
+.formulario {
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.formulario label {
+    margin-bottom: 5px;
+    margin-right: 220px;
+    margin-top: 10px;
+}
+
+.formulario input {
+    padding: 5px;
+}
+
+.formulario button {
+    background-color: #5CA720;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #512200; 
+}
+
+.linha {
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista {
+    margin-left: auto; /* Muda para "auto" para empurrar para o canto direito */
+}
+
+.lista ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.lista li {
+    margin-right: 20px;
+}
+.imgFooter{
+    margin-left: 1000px     ;
+}
+
+.imgFooter img {
+    margin-left: auto; /* Muda para "auto" para empurrar para o canto direito */
+    margin-right: 10px;
+    width: 30px;
+}
+.lista ul li {
+    font-size: 20px;
+    margin-left: 20px;
+}

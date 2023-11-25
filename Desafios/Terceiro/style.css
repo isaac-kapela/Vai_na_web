@@ -4,6 +4,10 @@
     box-sizing: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.container{
+    width: 100%;
+    height: 100%;
+}
 
 header {
     background-color: #129799;
@@ -108,12 +112,24 @@ main{
     align-items: center;
     border-radius: 15px;   
     margin-bottom: 20px;
+    
 }
 
 .img-cont{
     margin-left: 120px;
     margin-top: 20px;
 }
+.img-cont img {
+    cursor: pointer;
+}
+
+.img-cont:hover img{
+    border: 2px solid rgb(47, 0, 255);
+    opacity: 1;
+    transform: scale(1.1); /* Aumenta o tamanho em 10% */
+}
+
+
 
 footer{
     background-color: #129799;
@@ -147,6 +163,12 @@ footer{
     align-items: center;
 }
 
-.icons img{
-    width: 30px;
+.icons {
+    width: 1000px;
 }
+.icons ion-icon{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width:912px) {}
