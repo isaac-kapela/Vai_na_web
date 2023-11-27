@@ -1,0 +1,12 @@
+1. Descreva os projetos nos quais você trabalhou em equipe. Você desempenhou um papel de liderança? Exatamente o que você fez para ajudar sua equipe a atingir seu objetivo? Algum desses projetos foram projetos de TI?
+
+Durante minha graduação em [sua área de estudo], participei ativamente de projetos em equipe que aprimoraram minhas habilidades de colaboração. Em um projeto notável, estávamos encarregados de otimizar os processos de produção em uma simulação industrial, onde assumi a liderança ao coordenar as tarefas da equipe. Meu papel incluiu a identificação de áreas de melhoria nos processos e a implementação de soluções que resultaram em eficiência operacional. Embora não tenha sido um projeto de TI puro, envolveu a integração de tecnologias para melhorar a produtividade.
+
+2. O que você sabe sobre sistemas de manufatura ERP ou JDA? Você já trabalhou com eles? O que exatamente você fez com esses sistemas?
+
+Tenho conhecimento sólido em sistemas de manufatura ERP, especialmente em contextos industriais. Durante um projeto acadêmico, tive a oportunidade de analisar e recomendar melhorias em um sistema ERP para otimizar os fluxos de trabalho. Além disso, meu estágio anterior envolveu a implementação e manutenção de componentes do sistema JDA, onde fui responsável por configurar módulos específicos para atender às necessidades de gestão de produção da empresa.
+
+3. Você tem alguma habilidade em Access e Excel? Que tipos de problemas você usou essas ferramentas para resolver?
+
+Sim, desenvolvi habilidades avançadas em Access e Excel ao longo de meus estudos e experiências práticas. Em um projeto acadêmico, criei um banco de dados no Access para rastrear eficientemente o inventário de matérias-primas, reduzindo os tempos de busca. Além disso, no Excel, desenvolvi modelos complexos para análise de dados, facilitando a tomada de decisões informadas sobre a eficiência operacional.
+
