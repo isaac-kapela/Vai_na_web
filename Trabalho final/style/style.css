@@ -1,20 +1,33 @@
 body {
-    font-family: Arial, sans-serif;
-  }
-  
-  .board {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-  }
-  
-  .celula {
-    width: 50px;
-    height: 50px;
-    border: 1px solid #000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5em;
-  }
-  
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.tabuleiro {
+  display: flex;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+.coluna {
+  flex: 1;
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+}
+
+.linha {
+  display: flex;
+}
+
+.celula {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  margin: 5px;
+  cursor: pointer;
+}
+
