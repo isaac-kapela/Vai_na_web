@@ -2,12 +2,14 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   margin: 20px;
+  background-color: rgb(116, 7, 7);
 }
 
 .tabuleiro {
   display: flex;
   max-width: 300px;
   margin: 20px auto;
+  margin-top: 200px;
 }
 
 .coluna {
@@ -31,3 +33,6 @@ body {
   cursor: pointer;
 }
 
+.jogadores h1{
+  font-size: 16px;
+}
