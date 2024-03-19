@@ -18,7 +18,9 @@ export const ConteudoContainer = styled.main`
   }
 
   .texto-container {
-    /* Adicione estilos conforme necessário */
+    font-weight: 800;
+    font-size: 30px;
+    color:white;
   }
 
   ul{

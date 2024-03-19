@@ -13,7 +13,7 @@ export default function Conteudo() {
             <img src={ImgConteudo} alt="" />
           </div>
           <div className="texto-container">
-            <h1>BATEU AQUELA #FOME DE MÉQUI?</h1>
+            <h1>BATEU AQUELA <br></br> #FOME DE MÉQUI?</h1>
           </div>
         </div>
         <ul className="img-itens">
