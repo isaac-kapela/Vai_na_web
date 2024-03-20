@@ -18,12 +18,15 @@ const Navbar = () => {
                 <img src={Logo} alt="" />
               </div>
               <li>
+                <div className="imgNav">
                 <img src={imgMenu} alt="" />
-              <span>Baixe o App</span> 
-              </li>
-              <li>
-                <img src={imgMenu2} alt="" />
+               <span>Baixe o App</span> 
+              </div>
+              <div className="imgNav imgNav2">
                 <span>Peça seu Méqui</span> 
+                <img src={imgMenu2} alt="" />
+                </div>
+
 
               </li>
             </ul>
