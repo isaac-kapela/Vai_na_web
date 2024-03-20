@@ -36,6 +36,4 @@ padding-top:10px;
   .imgFooter {
     width: 100px;
   }
-
-  
 `;

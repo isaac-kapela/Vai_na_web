@@ -17,9 +17,9 @@ export const ConteudoContainer = styled.main`
 
   .conteudo-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr)); /* Define o grid com colunas automáticas */
-    grid-gap: 20px; /* Espaçamento entre os cards */
-    justify-content: center; /* Centraliza os cards horizontalmente */
+    grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr)); 
+    grid-gap: 20px;
+    justify-content: center; 
   }
 
   .texto-container {
@@ -38,6 +38,9 @@ export const ConteudoContainer = styled.main`
   .img-itens img {
     width: 80px;
     padding-bottom: 30px;
+  }
+  .texto-ver{
+    color:#DB0007;
   }
 `;
 
@@ -60,6 +63,7 @@ export const ConteudoSection = styled.section`
     color: white;
     text-transform: uppercase;
   }
+  
 `;
 
 export const Card = styled.div`
@@ -101,6 +105,6 @@ export const Card = styled.div`
 export const CardContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr)); 
-  gap: 20px; /* Espaçamento entre os cards */
+  gap: 20px;
   margin-left: 150px;
 `;
