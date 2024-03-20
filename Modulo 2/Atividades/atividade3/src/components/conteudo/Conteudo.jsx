@@ -1,3 +1,4 @@
+
 import ImgConteudo from "../../assets/hamburguerCont.png";
 import ImgMini from "../../assets/miniHam.png";
 import Casquinha from "../../assets/casquinha.png";
@@ -7,12 +8,15 @@ import MacLoja from "../../assets/MacLoja.jpeg";
 import MacPessoa from "../../assets/MacPessoa.jpeg";
 import * as S from './conteudo_style';
 import Card from "./Card";
-
-
-
-
+ import { useState } from "react";
 
 export default function Conteudo() {
+  const [exibirMensagem, setExibirMensagem] = useState(false);
+
+  const clickado = () => {
+    setExibirMensagem(true);
+  };
+
   return (
     <main>
       <S.ConteudoContainer>
@@ -21,8 +25,7 @@ export default function Conteudo() {
             <img src={ImgConteudo} alt="" />
           </div>
           <div className="texto-container">
-          <h1>BATEU AQUELA <br></br> <span className="texto-ver">#FOME</span> DE <span className="texto-ver">MÉQUI</span>?</h1>
-
+            <h1>BATEU AQUELA <br></br> <span className="texto-ver">#FOME</span> DE <span className="texto-ver">MÉQUI</span>?</h1>
           </div>
         </div>
         <ul className="img-itens">
@@ -39,9 +42,9 @@ export default function Conteudo() {
 
             <S.Card>
               <S.CardContainer>
-                <Card imagem={MacSofa} texto="Que tal um #MéquiNoSofá?" />
-                <Card imagem={MacLoja} texto="venha conhecer nossa nova loja" />
-                <Card imagem={MacPessoa} texto="Confira as medidas que o Méqui adotou!" />
+                <Card imagem={MacSofa} texto="Que tal um #MéquiNoSofá?" onClick={clickado} />
+                <Card imagem={MacLoja} texto="venha conhecer nossa nova loja" onClick={clickado} />
+                <Card imagem={MacPessoa} texto="Confira as medidas que o Méqui adotou!" onClick={clickado} />
               </S.CardContainer>
             </S.Card>
 
@@ -50,6 +53,8 @@ export default function Conteudo() {
         </section>
 
       </S.ConteudoSection>
+
+      {exibirMensagem && <p>Baixar o aplicativo</p>} 
     </main>
   );
 }
