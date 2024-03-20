@@ -1,8 +1,16 @@
 import ImgConteudo from "../../assets/hamburguerCont.png";
-import ImgMini from "../../assets/miniHam.png"
-import Casquinha from "../../assets/casquinha.png"
-import batata from "../../assets/batata.png"
+import ImgMini from "../../assets/miniHam.png";
+import Casquinha from "../../assets/casquinha.png";
+import batata from "../../assets/batata.png";
+import MacSofa from "../../assets/macSofa.png";
+import MacLoja from "../../assets/MacLoja.jpeg";
+import MacPessoa from "../../assets/MacPessoa.jpeg";
 import * as S from './conteudo_style';
+import Card from "./Card";
+
+
+
+
 
 export default function Conteudo() {
   return (
@@ -23,10 +31,23 @@ export default function Conteudo() {
         </ul>
       </S.ConteudoContainer>
 
-    <S.ConteudoSection>
-      <section>
+      <S.ConteudoSection>
+        <section>
+          <div className="conteudo">
+            <h1>Promoção</h1>
 
-      </section>
+            <S.Card>
+              <S.CardContainer>
+                <Card imagem={MacSofa} texto="Que tal um #MéquiNoSofá?" />
+                <Card imagem={MacLoja} texto="venha conhecer nossa nova loja" />
+                <Card imagem={MacPessoa} texto="Confira as medidas que o Méqui adotou!" />
+              </S.CardContainer>
+            </S.Card>
+
+          </div>
+
+        </section>
+
       </S.ConteudoSection>
     </main>
   );
