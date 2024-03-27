@@ -26,6 +26,7 @@ export const ConteudoContainer = styled.main`
     font-weight: 800;
     font-size: 30px;
     color: white;
+    margin-top: 80px;
   }
 
   ul {
@@ -62,6 +63,7 @@ export const ConteudoSection = styled.section`
     font-weight: 800;
     color: white;
     text-transform: uppercase;
+    
   }
   
 `;
@@ -99,8 +101,13 @@ export const Card = styled.div`
     width:50%;
     align-items: center;
     justify-content: center;
-
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
 `;
+
 
 export const CardContainer = styled.div`
   display: grid;

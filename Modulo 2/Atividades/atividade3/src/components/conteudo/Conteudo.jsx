@@ -8,14 +8,10 @@ import MacLoja from "../../assets/MacLoja.jpeg";
 import MacPessoa from "../../assets/MacPessoa.jpeg";
 import * as S from './conteudo_style';
 import Card from "./Card";
- import { useState } from "react";
+
 
 export default function Conteudo() {
-  const [exibirMensagem, setExibirMensagem] = useState(false);
 
-  const clickado = () => {
-    setExibirMensagem(true);
-  };
 
   return (
     <main>
@@ -42,9 +38,9 @@ export default function Conteudo() {
 
             <S.Card>
               <S.CardContainer>
-                <Card imagem={MacSofa} texto="Que tal um #MéquiNoSofá?" onClick={clickado} />
-                <Card imagem={MacLoja} texto="venha conhecer nossa nova loja" onClick={clickado} />
-                <Card imagem={MacPessoa} texto="Confira as medidas que o Méqui adotou!" onClick={clickado} />
+                <Card imagem={MacSofa} texto="Que tal um #MéquiNoSofá?" />
+                <Card imagem={MacLoja} texto="venha conhecer nossa nova loja" />
+                <Card imagem={MacPessoa} texto="Confira as medidas que o Méqui adotou!" />
               </S.CardContainer>
             </S.Card>
 
@@ -54,7 +50,6 @@ export default function Conteudo() {
 
       </S.ConteudoSection>
 
-      {exibirMensagem && <p>Baixar o aplicativo</p>} 
     </main>
   );
 }
